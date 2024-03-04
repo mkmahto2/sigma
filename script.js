@@ -1,1 +1,1 @@
-alert("hello this is warning")
+alert("You are hacked... All data is in danger. Please reboot your Mobile and Reset Your mobile")
