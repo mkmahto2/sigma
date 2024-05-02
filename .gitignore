@@ -1,0 +1,5 @@
+# Remove all video and audio files that match the patterns in .gitignore
+git rm --cached '*.mp4' '*.mov' '*.avi' '*.mkv' '*.flv' '*.wmv' '*.mp3' '*.wav' '*.ogg' '*.aac' '*.flac'
+
+# Commit the changes
+git commit -m "Remove ignored video and audio files"
