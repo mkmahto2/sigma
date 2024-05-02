@@ -1,0 +1,43 @@
+Difference between id and class Attributes in HTML
+In HTML, the “id” attribute is employed to uniquely identify a specific element on a page. On the other hand, the “class” attribute is utilized to categorize and apply styles or scripts to multiple elements, enabling the application of common styles to various parts of the page where the class is assigned.
+
+HTML id Attribute
+The id attribute is a unique identifier that is used to specify the document. It is used by CSS and JavaScript to perform a certain task for a unique element. In CSS, the id attribute is written using the # symbol followed by id.
+
+
+Syntax
+<element id="id_name">
+
+In CSS Stylesheet:
+#id_name {
+    // CSS Property
+}
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML id attribute</title>
+
+		<style>
+			#geeks {
+				color: green;
+				font-size: 25px;
+			}
+		</style>
+	</head>
+
+	<body style="text-align: center">
+		<h1>
+			Geeks for Geeks
+		</h1>
+		<p id="geeks">
+			Welcome to Geeks for Geeks
+		</p>
+		<p>
+			A Computer Science portal for geeks
+		</p>
+	</body>
+</html>
+HTML class Attribute
+The class attribute is used to specify one or more class names for an HTML element. The class attribute can be used on any HTML element. The class name can be used by CSS and JavaScript to perform certain tasks for elements with the specified class name. The class name in CSS stylesheet using “.” symbol.
