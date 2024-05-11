@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+
+            /* Element selector */
+            background-color: red;
+
+
+
+        }
+
+        /* class selector */
+.red{
+    background-color: yellow;
+}
+/* ID Selector */
+#green{
+    background-color: green;
+}
+
+/* child selector */
+div > p {
+    color: aqua;
+    background-color: blueviolet;
+}
+/* descendant selector */
+
+div p {
+    color: coral;
+    background-color: brown;
+}
+
+
+/* universal selector */
+*
+{
+    margin:0;
+    padding: 0;
+    
+}
+
+/*  pseudo sido selector */
+
+a:visited{
+    color: yellow;
+}
+a:link
+{color:red}
+a:active{
+    background-color: black;
+}
+
+a:hover{
+    color: blue;
+}
+    </style>
+</head>
+<body>
+    <div class="red">
+I am another div
+    </div>
+
+    <div>
+        Im second div
+        <p>I am Paragraph</p>
+    </div>
+
+    <div id="green">
+<h1>Hi I am Green Div with ID class</h1>
+    </div>
+
+    <div>
+        <p>IM am Paragraph</p>
+
+    </div>
+
+    <article>
+        <p>Im a Paragraph in Active</p>
+    </article>
+
+    <div>
+        <a href="www.google.com"> Go to google</a>
+        <a href="www.facebook.com">Go to facebook.com</a>
+    </div>
+</body>
+</html>
